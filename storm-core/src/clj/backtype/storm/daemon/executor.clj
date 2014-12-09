@@ -78,7 +78,7 @@
       :none
         (fn [task-id tuple]
           (let [i (mod (.nextInt random) num-tasks)]
-            (.get target-tasks i)
+            (get target-tasks i)
             ))
       :custom-object
         (let [grouping (thrift/instantiate-java-object (.get_custom_object thrift-grouping))]
