@@ -258,7 +258,7 @@
                                 "-Dstorm.conf.file="
                                 "-Dstorm.options="
                                 (str "-Dstorm.log.dir=" file-path-separator "logs")
-                                (str "-Dlogback.configurationFile=" file-path-separator "logback" file-path-separator "cluster.xml")
+                                (str "-Dlogback.configurationFile=" file-path-separator "logback" file-path-separator "worker.xml")
                                 (str "-Dstorm.id=" mock-storm-id)
                                 (str "-Dworker.id=" mock-worker-id)
                                 (str "-Dworker.port=" mock-port)
